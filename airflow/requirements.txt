@@ -1,0 +1,4 @@
+boto3
+pyspark==3.4.1
+kaggle==1.5.16
+boto3
