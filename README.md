@@ -1,6 +1,6 @@
 # Twitter US Airline Sentiment Datalake Project
 
-This weekend‐MVP showcases an end-to-end data pipeline using:
+An end-to-end data pipeline for processing and analyzing US airline sentiment using:
 - Apache Airflow for orchestration
 - PySpark for ETL and Apache Iceberg for table management
 - MinIO as an S3-compatible data lake storage
@@ -14,7 +14,7 @@ This weekend‐MVP showcases an end-to-end data pipeline using:
 ```
 .
 ├── docker-compose.yml
-├── kaggle.json                # Your Kaggle credentials (do NOT commit this file)
+├── kaggle.json                # Your Kaggle credentials
 ├── airflow/
 │   ├── Dockerfile            # Custom Airflow image (Java + Python deps)
 │   ├── requirements.txt      # Python dependencies for Airflow
